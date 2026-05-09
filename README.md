@@ -1,6 +1,4 @@
-I based this README on the uploaded report, including the drift-aware workflow, drift-injection methodology, and reported LSTM degradation results. 
 
-````markdown
 # Drift-Aware Deep Learning-Based Handover Prediction in Mobile Networks
 
 This repository contains the implementation and experimental framework for **drift-aware handover prediction in mobile networks** using deep learning and RSRP time-series data.
@@ -118,33 +116,6 @@ Incremental drift has the mildest effect, while gradual drift produces an interm
 
 ---
 
-## Repository Structure
-
-```text
-.
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── drifted/
-├── notebooks/
-│   ├── drift_generation.ipynb
-│   ├── lstm_training.ipynb
-│   └── drift_evaluation.ipynb
-├── src/
-│   ├── data_preprocessing.py
-│   ├── drift_generator.py
-│   ├── lstm_model.py
-│   ├── evaluation.py
-│   ├── drift_detection.py
-│   └── adaptation.py
-├── results/
-│   ├── figures/
-│   └── metrics/
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## Installation
 
@@ -155,24 +126,7 @@ git clone https://github.com/YOUR_USERNAME/drift-aware-handover-prediction.git
 cd drift-aware-handover-prediction
 ```
 
-Create and activate a virtual environment:
 
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-On Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -319,5 +273,3 @@ Regina, Saskatchewan, Canada
 
 This project is intended for academic and research use. Add an appropriate license before public release, such as MIT, Apache-2.0, or GPL-3.0.
 
-```
-```
